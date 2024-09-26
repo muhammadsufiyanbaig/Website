@@ -19,25 +19,18 @@ export default function About() {
     >
       <SectionHeading>About us</SectionHeading>
       <p className="mb-3">
-        After completing Intermediate with in
-        <span className="font-medium"> Computer Science</span>, I pursued my passion for web development.
-        I gained hands-on experience as a Full-stack Intern at Panacloud Pvt Ltd, where I developed and maintained responsive, user-friendly, and visually appealing websites using
-        <span className="font-medium">Next.js, React.js, and Tailwind CSS</span>.
-        <span className="italic">My favorite part of web development</span> is creating intuitive user experiences and optimizing website performance.
-        My core stack includes
-        <span className="font-medium">Next.js, React.js, Typescript, and Tailwind CSS</span>.
-        I am also familiar with Python, C, C++, Express.js, Fast API, Material UI, ShadCN UI, SQLite and Neon Database.
-        I am always eager to learn new technologies and am currently looking for a
-        <span className="font-medium">full-time position</span> as a Full-Stack developer.
+        Since 1995, <span className="font-medium">Tecno Gas Pakistan</span> has been a household name in premium home appliances. With a focus on
+        <span className="font-medium">quality and innovation</span>, we bring you products that stand the test of time. From state-of-the-art
+        <span className="font-medium">cooking hobs and ranges</span> to efficient water heating solutions, we have everything you need to create a
+        <span className="italic">comfortable and efficient home</span>. Trust in our legacy of over two decades, delivering
+        <span className="font-medium">excellence and durability</span>.
+      </p>
+      <p>
+        <span className="italic">Experience the difference</span> with our innovative products, designed to make everyday tasks easier. Our commitment to
+        <span className="font-medium">craftsmanship and reliability</span> has positioned us as a leader in the market, offering solutions that
+        <span className="italic">combine style and functionality</span>.
       </p>
 
-      <p>
-        <span className="italic">When I'm not development</span>, I enjoy exploring new technologies, especially in the fields of AI and data science.
-        I am currently working towards a certification in
-        <span className="font-medium"> Cloud Applied Generative AI Engineering</span>.
-        I am currently pursuing a <span className="font-medium"> Bachelor's degree in Data Science </span> from Sindh Madarsatul Islam University <span className="font-medium"> (SMIU)</span>.
-        I also have a keen interest in open-source projects and enjoy contributing to the tech community.
-      </p>
 
     </motion.section>
   );

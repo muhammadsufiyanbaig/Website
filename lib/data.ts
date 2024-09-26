@@ -1,11 +1,8 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+import { FaCertificate, FaChartLine, FaIndustry, FaNetworkWired, FaReact, FaWater } from "react-icons/fa";
 import Ecommerce from "@/public/Ecommerce.jpg";
 import PictureGallery from "@/public/PictureGallery.jpg";
 import ExpenseTracker from "@/public/ExpenseTracker.jpg";
-import LoginSignup from "@/public/LoginSignup.jpg"
 import Quiz from "@/public/Quiz.jpg"
 import CryptoFleet from "@/public/Cryptofleet.jpg"
 export const links = [
@@ -18,16 +15,12 @@ export const links = [
     hash: "#about",
   },
   {
-    name: "Projects",
-    hash: "#projects",
+    name: "Products",
+    hash: "#products",
   },
   {
-    name: "Skills",
-    hash: "#skills",
-  },
-  {
-    name: "Experience",
-    hash: "#experience",
+    name: "Journey",
+    hash: "#journey",
   },
   {
     name: "Contact",
@@ -37,80 +30,111 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Full-Stack Developer",
-    location: "Panacloud Pvt Ltd",
+    title: "Tecno Gas Pakistan - Inception",
+    location: "Pakistan",
     description:
-      "I'm now a full-stack intern working at Panacloud. My stack includes React, Next.js, TypeScript, Tailwind, Firebase, Express.js and SQLite. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "Sep-2023 - present",
+      "Tecno Gas Pakistan began its journey in 1995, steadily growing over time. In the first 10 years, the company expanded its reach across the country.",
+    icon: React.createElement(FaIndustry),
+    date: "1995 - 2005",
+  },
+  {
+    title: "Copyright Certification",
+    location: "Pakistan",
+    description:
+      "In 2005, Tecno Gas Pakistan secured a copyright certificate, ensuring brand protection and restricting the use of similar names across Pakistan.",
+    icon: React.createElement(FaCertificate),
+    date: "2005",
+  },
+  {
+    title: "Production of Water Heaters",
+    location: "Pakistan",
+    description:
+      "In 2011, Tecno Gas Pakistan started production of water heaters, marking a milestone by following international specifications and standards.",
+    icon: React.createElement(FaWater),
+    date: "2011",
+  },
+  {
+    title: "New Management Takeover",
+    location: "Pakistan",
+    description:
+      "In 2015, Tecno Gas Pakistan underwent a management change, leading to rapid growth over the next 9 years and a significant expansion of product lines.",
+    icon: React.createElement(FaChartLine),
+    date: "2015 - 2024",
+  },
+  {
+    title: "Expanded Product Line & Nationwide Network",
+    location: "Pakistan",
+    description:
+      "Tecno Gas Pakistan expanded its product line to include electric and gas water heaters, semi-instant electric geysers, gas instant geysers, cooking ranges, hobs, water coolers, and established a service network in 14 cities across Pakistan.",
+    icon: React.createElement(FaNetworkWired),
+    date: "2015 - present",
   },
 ] as const;
 
-export const projectsData = [
-  
+
+export const productsData = [
   {
-    title: "Cryptofleet.io",
+    title: "Cooking Hob",
     description:
-      "I am currently working on Cryptofleet.io, a crypto trading platform is building on Next.js.",
-    tags: ["React", "Tailwind", "Typescript", "Next.js"],
+      "Cook like a pro with our advanced Cooking Hob, featuring multiple burners, a grill, and rotisserie. Achieve energy efficiency without compromising performance.",
+    tags: ["Energy Efficiency", "Multiple Burners", "Grill", "Rotisserie"],
     imageUrl: CryptoFleet,
-    technicalDetails:{
-      modalTitle: "",
-      modalData: "",
+    technicalDetails: {
+      modalTitle: "Advanced Cooking Hob",
+      modalData: "Our Cooking Hob offers top-notch features including multiple burners, a grill, and a rotisserie for versatile cooking. Engineered for energy efficiency without sacrificing power, it's designed for serious home cooks.",
       modalImage: CryptoFleet,
     }
   },
   {
-    title: "QuizNex",
+    title: "Cooking Range",
     description:
-      "Quiz App with React.js, Tailwind CSS, Neon DB and Express.js. Teachers upload questions; students take quizzes. Cheat-proof with disabled shortcuts.",
-    tags: ["React", "Tailwind", "Javascript", "Express.js", "Neondb", "JWT"],
-    imageUrl: Quiz,
-    technicalDetails:{
-      modalTitle: "Lorem ipsum dolor sit amet",
-      modalData: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Our Cooking Range is designed for culinary perfection, offering energy-saving features, multiple burners, and integrated rotisserie – ideal for any kitchen enthusiast.",
+    tags: ["Energy Saving", "Multiple Burners", "Rotisserie"],
+    imageUrl: CryptoFleet,
+    technicalDetails: {
+      modalTitle: "Professional Cooking Range",
+      modalData: "Designed for professionals and kitchen enthusiasts alike, this Cooking Range offers multiple burners for simultaneous cooking and an integrated rotisserie for perfectly roasted dishes, all with energy-saving technology.",
       modalImage: CryptoFleet,
     }
   },
   {
-    title: "Gallery Grid",
+    title: "Geyser",
     description:
-      "It's a Next.js Picture Gallery website. It is built using Next.js, Tailwind CSS, NextAuth and Firebase. It is hosted on Vercel.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Firebase"],
-    imageUrl: PictureGallery,
-    technicalDetails:{
-      modalTitle: "Lorem ipsum dolor sit amet",
-      modalData: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      modalImage: CryptoFleet,
-    }
-  
-  },
-  {
-    title: "Next Commerce",
-    description:
-      "This is a Next.js e-commerce website. It is built using Next.js, Tailwind CSS and Sanity.io. It is hosted on Vercel.",
-    tags: ["React", "Next.js", "Tailwind CSS", "Sanity.io", "Shadcn UI"],
-    imageUrl: Ecommerce,
-    technicalDetails:{
-      modalTitle: "Lorem ipsum dolor sit amet",
-      modalData: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Stay warm with our Super Heavy Electric and Gas Geyser. Built for durability with an Italian thermostat and double safety system, ensuring reliable heating.",
+    tags: ["Electric", "Gas", "Durable", "Italian Thermostat"],
+    imageUrl: CryptoFleet,
+    technicalDetails: {
+      modalTitle: "Super Heavy Geyser",
+      modalData: "This durable electric and gas geyser comes equipped with an Italian thermostat for precise temperature control and a double safety system, ensuring reliable and safe heating during the coldest months.",
       modalImage: CryptoFleet,
     }
   },
   {
-    title: "Rupeeya Expense Tracker",
+    title: "Instant Electric Geyser",
     description:
-      "This is a Expense Tracker. It is built using React.js, Tailwind CSS, JS and Chart.js. It is hosted on Vercel.",
-    tags: ["React", "Tailwind", "Javascript",],
-    imageUrl: ExpenseTracker,
-    technicalDetails:{
-      modalTitle: "Lorem ipsum dolor sit amet",
-      modalData: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "Compact yet powerful, our Small Geyser offers efficient heating with energy-saving technology, perfect for homes with limited space.",
+    tags: ["Compact", "Energy Saving", "Efficient Heating"],
+    imageUrl: CryptoFleet,
+    technicalDetails: {
+      modalTitle: "Compact Instant Electric Geyser",
+      modalData: "Designed for small spaces, this instant electric geyser provides powerful, efficient heating while using energy-saving technology, making it the ideal choice for compact homes.",
       modalImage: CryptoFleet,
-    }  
+    }
   },
- 
+  {
+    title: "Water Cooler",
+    description:
+      "Available in 35 to 100 liters, our full-steel water cooler is built to perform with an imported compressor and moisture-proof insulation for efficient cooling.",
+    tags: ["Full Steel", "Imported Compressor", "Moisture-Proof Insulation"],
+    imageUrl: CryptoFleet,
+    technicalDetails: {
+      modalTitle:  "Full-Steel Water Cooler",
+      modalData: "This robust water cooler, available in various capacities (35 to 100 liters), features a high-performance imported compressor and moisture-proof insulation to ensure efficient and long-lasting cooling.",
+      modalImage: CryptoFleet,
+    }
+  }
 ] as const;
+
 
 export const skillsData = [
   "HTML",

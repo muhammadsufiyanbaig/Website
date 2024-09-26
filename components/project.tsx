@@ -1,13 +1,13 @@
 "use client";
 
 import { useRef, useState } from "react";
-import { projectsData } from "@/lib/data";
+import { productsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Modal from "./modal"; // Import modal
 import Link from "next/link";
 
-type ProjectProps = (typeof projectsData)[number];
+type ProjectProps = (typeof productsData)[number];
 
 export default function Project({
   title,
