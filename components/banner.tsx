@@ -10,7 +10,7 @@ const Banner = () => {
       animate={{ opacity: 1, y: 0 }} // Final state: visible and in the correct position
       transition={{ duration: 0.8, ease: "easeOut" }} // Smooth transition
     >
-      <div className="bg-gradient-to-br dark:from-gray-900 from-gray-200 dark:via-gray-900 via-gray-200 dark:to-[#790e0e] to-[#fa7b7b] p-4 sm:p-6 lg:p-10 rounded-2xl max-w-[90vh] sm:max-w-[80vh] dark:text-white text-gray-900 flex flex-col sm:flex-row items-center justify-between mx-auto my-10 gap-4 sm:gap-0">
+      <div className="bg-gradient-to-br dark:from-gray-900 from-gray-200 dark:via-gray-900 via-gray-200 dark:to-[#790e0e] to-[#b302029d] p-4 sm:p-6 lg:p-10 rounded-2xl max-w-[90vh] sm:max-w-[80vh] dark:text-white text-gray-900 flex flex-col sm:flex-row items-center justify-between mx-auto my-10 gap-4 sm:gap-0">
         <div className="flex flex-col gap-6">
           <div>
             <motion.span 
@@ -23,7 +23,7 @@ const Banner = () => {
             </motion.span>
             <br />
             <motion.span
-              className="dark:text-gray-200 text-red-900 text-xl sm:text-3xl dark:font-semibold font-bold"
+              className="dark:text-gray-200 text-red-700 text-xl sm:text-3xl dark:font-semibold font-bold"
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5, duration: 0.6 }}
