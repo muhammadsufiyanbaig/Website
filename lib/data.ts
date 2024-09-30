@@ -1,10 +1,10 @@
 import React from "react";
 import { FaCertificate, FaChartLine, FaIndustry, FaNetworkWired, FaReact, FaWater } from "react-icons/fa";
-import Ecommerce from "@/public/Ecommerce.jpg";
-import PictureGallery from "@/public/PictureGallery.jpg";
-import ExpenseTracker from "@/public/ExpenseTracker.jpg";
-import Quiz from "@/public/Quiz.jpg"
-import CryptoFleet from "@/public/Cryptofleet.jpg"
+import CookingHob from "@/public/CookingHob.jpg"
+import CookingRange from "@/public/CookingRange.jpg"
+import Gyser from "@/public/Gyser.jpg"
+import SmallGyser from "@/public/SmallGyser.jpg"
+import WaterCooler from "@/public/WaterCooler.jpg"
 export const links = [
   {
     name: "Home",
@@ -78,11 +78,11 @@ export const productsData = [
     description:
       "Cook like a pro with our advanced Cooking Hob, featuring multiple burners, a grill, and rotisserie. Achieve energy efficiency without compromising performance.",
     tags: ["Energy Efficiency", "Multiple Burners", "Grill", "Rotisserie"],
-    imageUrl: CryptoFleet,
+    imageUrl: CookingHob,
     technicalDetails: {
       modalTitle: "Advanced Cooking Hob",
       modalData: "Our Cooking Hob offers top-notch features including multiple burners, a grill, and a rotisserie for versatile cooking. Engineered for energy efficiency without sacrificing power, it's designed for serious home cooks.",
-      modalImage: CryptoFleet,
+      modalImage: CookingHob,
     }
   },
   {
@@ -90,11 +90,11 @@ export const productsData = [
     description:
       "Our Cooking Range is designed for culinary perfection, offering energy-saving features, multiple burners, and integrated rotisserie – ideal for any kitchen enthusiast.",
     tags: ["Energy Saving", "Multiple Burners", "Rotisserie"],
-    imageUrl: CryptoFleet,
+    imageUrl: CookingRange,
     technicalDetails: {
       modalTitle: "Professional Cooking Range",
       modalData: "Designed for professionals and kitchen enthusiasts alike, this Cooking Range offers multiple burners for simultaneous cooking and an integrated rotisserie for perfectly roasted dishes, all with energy-saving technology.",
-      modalImage: CryptoFleet,
+      modalImage: CookingRange,
     }
   },
   {
@@ -102,11 +102,11 @@ export const productsData = [
     description:
       "Stay warm with our Super Heavy Electric and Gas Geyser. Built for durability with an Italian thermostat and double safety system, ensuring reliable heating.",
     tags: ["Electric", "Gas", "Durable", "Italian Thermostat"],
-    imageUrl: CryptoFleet,
+    imageUrl: Gyser,
     technicalDetails: {
       modalTitle: "Super Heavy Geyser",
       modalData: "This durable electric and gas geyser comes equipped with an Italian thermostat for precise temperature control and a double safety system, ensuring reliable and safe heating during the coldest months.",
-      modalImage: CryptoFleet,
+      modalImage: Gyser,
     }
   },
   {
@@ -114,11 +114,11 @@ export const productsData = [
     description:
       "Compact yet powerful, our Small Geyser offers efficient heating with energy-saving technology, perfect for homes with limited space.",
     tags: ["Compact", "Energy Saving", "Efficient Heating"],
-    imageUrl: CryptoFleet,
+    imageUrl: SmallGyser,
     technicalDetails: {
       modalTitle: "Compact Instant Electric Geyser",
       modalData: "Designed for small spaces, this instant electric geyser provides powerful, efficient heating while using energy-saving technology, making it the ideal choice for compact homes.",
-      modalImage: CryptoFleet,
+      modalImage: SmallGyser,
     }
   },
   {
@@ -126,11 +126,11 @@ export const productsData = [
     description:
       "Available in 35 to 100 liters, our full-steel water cooler is built to perform with an imported compressor and moisture-proof insulation for efficient cooling.",
     tags: ["Full Steel", "Imported Compressor", "Moisture-Proof Insulation"],
-    imageUrl: CryptoFleet,
+    imageUrl: WaterCooler,
     technicalDetails: {
       modalTitle:  "Full-Steel Water Cooler",
       modalData: "This robust water cooler, available in various capacities (35 to 100 liters), features a high-performance imported compressor and moisture-proof insulation to ensure efficient and long-lasting cooling.",
-      modalImage: CryptoFleet,
+      modalImage: WaterCooler,
     }
   }
 ] as const;

@@ -68,7 +68,7 @@ const Modal = ({ isOpen, onClose, title, technicalDetails }: ModalProps) => {
                 alt={technicalDetails.modalTitle}
                 height={300} // Adjusted for mobile responsiveness
                 width={300}  // Adjusted for mobile responsiveness
-                className="object-cover max-w-full h-auto"
+                className="object-cover max-w-full h-auto min-h-[60vh] min-w-[80vh] rounded-lg"
               />
             </div>
           </div>
